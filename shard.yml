@@ -1,19 +1,9 @@
 name: block
 version: 1.1.0
 
-# authors:
-#   - name <email@example.com>
+authors:
+  - Meatball
 
-# description: |
-#   Short description of codespaces-blank
-
-# dependencies:
-#   pg:
-#     github: will/crystal-pg
-#     version: "~> 0.5"
-
-# development_dependencies:
-#   webmock:
-#     github: manastech/webmock.cr
-
-# license: MIT
+description: |
+  Short description of representer
+license: AGPL-3.0
