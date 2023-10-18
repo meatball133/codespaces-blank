@@ -1,8 +1,14 @@
 require "compiler/crystal/syntax"
 
 class TestVisitor < Crystal::Visitor
+    @@array = [] of Int32 | Nil 
+
+    def self.array
+        @@array
+    end
+
     def visit(node : Crystal::Def)
-        p node.block_arity
+        @@array << node.block_arity
         true
     end
 
