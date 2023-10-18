@@ -1,7 +1,7 @@
 require "compiler/crystal/syntax"
 
 class TestVisitor < Crystal::Visitor
-    def visit(node : Crystal)
+    def visit(node : Crystal::Def)
         p node.block_arity
         true
     end
